@@ -11,7 +11,7 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 * [LDR6282](http://www.legendary.net.cn/html/en/product/USB-C_PD/202005/1166.html) - USB Type-C controller with Display Port Alternate mode and PD support.
 * TSUM052GDG-1 - FullHD HDMI+Type-C controller.
 * [EM78F611](http://www.emc.com.tw/emc/en/Product/Product/detail/216) - USB HID microcontroller (keyboard)
-* [MIX3015A](http://www.mixinno.com/userfiles/productfile/MIX3015A.pdf) - Audio amplifier.
+* [MIX3015A](http://www.mixinno.com/?topclassid=11&classid=15) - Class D audio amplifier.
 
 ## Firmware basics
 

@@ -55,7 +55,7 @@ The firmware has a code to accept video stream via ADB connection, but I don't k
 ### Keyboard
 
 * <kbd>Windows</kbd> key has no effect.
-* Some keys are available only in <kbd>Num Lock</kbd> off mode, but there is no way to make it default, nor even <kbd>Num Lock</kbd> state indicator.
+* Some keys are available only in <kbd>Num Lock</kbd> off mode, but there is no way to make it the default state, nor even <kbd>Num Lock</kbd> state indicator.
 
 ### HDMI
 

@@ -20,7 +20,7 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 * Realtek audio/video library (HDMI, hardware AV decoders).
 * ActionsMicro AM8270 SDK (Miracast).
 
-Most of the software looks like developed by Sage Electronics Technology Co.
+Most of the software looks like developed by Sage Electronics Technology Co., the [developer of EZCast dongles](https://fccid.io/2AGM8-B20) and similar devices, which has no a web site. Well, [EZCast](https://www.ezcast.com/) web site is copyrighted by [Actions Microelectronics Co., Ltd](https://www.actions-micro.com/), so, probably, they are either the same, or related. I have no idea how [Anyware](https://anywaretek.com/) is related to them...
 
 ## How does it work
 

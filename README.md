@@ -71,7 +71,7 @@ Not all HDMI cables work: it has to be found out what is the reason. I suspect t
 
 If a computer or smartphone consumes high current, PhoneBook periodically reboots, even being connected to an external power supply. I recommend to charge fully your device before using Type-C connection.
 
-Though LDR6282 may support Power Delivery (PD), it seems its firmware has no support for PD. I've tried a mini-notebook (Chuwi Minibook) which requests 15V/1.5A, and the picture on the PhoneBook is distorted, and it produces crackling sound. Looks like Minibook permanently tries to negotiate PD, which creates the noise. OneNetbook One Mix 3 accepts 5V power source, but drains up to 2A, causing PhoneBook periodical reboots. I can only use this combo if Mix 3 is fully charged, and external power supply is used.
+Though LDR6282 may support Power Delivery (PD), it seems its firmware has no support for PD. I've tried a mini-notebook ([Chuwi Minibook](https://chuwi.com/product/items/Chuwi-MiniBook.html)) which requests 15V/1.5A, and the picture on the PhoneBook is distorted, and it produces crackling sound. Looks like Minibook permanently tries to negotiate PD, which creates the noise. [One-Netbook OneMix 3](https://www.1netbook.com/onemix-3/) accepts 5V power source, but drains up to 2A, causing PhoneBook periodical reboots. I can only use this combo if OneMix 3 is fully charged, and external power supply is used.
 
 The problem with PD looks like hardware design problem. Though LDR6282 supports different modes, its UART interface for its firmware updates is not connected to the SoC, and, as such, can't be changed with a usual OTA update.
 

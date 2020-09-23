@@ -74,4 +74,6 @@ For me, it looks like a great idea, well implemented in hardware, but with sever
 
 With Android devices, [`scrcpy`](https://github.com/Lurker00/scrcpy) looks like a better solution, and it could be implemented exactly the way like Anyware has implemented (yet not working) background process for touch simulation. [AOA-audio](https://github.com/rom1v/aoa-audio) project shows that it is possible to make sound working for Android as well.
 
-Currently, if Anyware would fix touchscreen and sound issues, it would be very good. If the could fix Type-C power issue, even for those who can soldet UART interface by himself, it would be even better. But making PhoneBook an open source platform would be great!
+Currently, if Anyware would fix touchscreen and sound issues, it would be very good. If they could fix Type-C power issue, even for those who can solder UART interface by himself, it would be even better. But making PhoneBook an open source platform would be *the* way to go!
+
+Right now I'm waiting for UART-USB adapter to go inside the PhoneBook...

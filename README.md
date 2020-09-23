@@ -33,7 +33,7 @@ Keyboard, touchpad and mouse (which can be connected to one of the USB ports) ar
 Firmware forwards keyboard events not transparent way:
 * some keycodes are handled directly (volume and brightness control)
 * some key combinations may produce macro sequences (gaming mode)
-* some keys are not handled (?) and, as such, are not passed to BT. For instance, "Win" key produces no effect.
+* some keys are not handled (?) and, as such, are not passed to BT. For instance, <kbd>Windows</kbd> key produces no effect.
 
 ### Windows
 

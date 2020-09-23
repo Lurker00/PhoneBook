@@ -28,7 +28,7 @@ Most of the software looks like developed by Sage Electronics Technology Co., th
 
 ## How does it work
 
-The following information is based on quick reverse engineering of the firmware.
+The following information is based on quick (a few hours) reverse engineering of the firmware.
 
 ### Common
 
@@ -54,6 +54,8 @@ If ADB is enabled on the device, the firmware establish connection and pushes ja
 
 The firmware has a code to accept video stream via ADB connection, but I don't know whether it is actually used.
 
+There is [Android application](https://play.google.com/store/apps/details?id=com.anyware.appctrl), which is, actually, only provides UI to PhoneBook firmware settings and updates. It has a "gamer" mode, which, in fact, only a launcher which turns PhoneBook into a mode which supports macros for keys.
+
 ## Problems found
 
 ### Keyboard
@@ -76,6 +78,13 @@ The problem with PD looks like hardware design problem. Though LDR6282 supports 
 ### Touchscreen
 
 I failed to see it working neither with Windows, nor with Android. The touchscreen by itself is good: touching the left bottom corner with any device connected, shows on-screen controls for display brightness/contrast and sound volume. It looks like touches are not forwarded to the connected devices at all.
+
+### Android application
+
+* The option to force landscape mode produces a message in Chinese and does not work, thought it could be easily implemented on any device.
+* The option to change display modes does not work on my devices, though I see no a reason why.
+* On PhoneBook connection, it starts in "gamer" mode, and this behavior can't be disabled.
+* It would be very useful if it initiated BT connection on USB connect, and BT disconnect on USB disconnect, but it does not.
 
 ## Current conclusion
 

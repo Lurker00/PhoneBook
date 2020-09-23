@@ -54,7 +54,7 @@ The firmware has a code to accept video stream via ADB connection, but I don't k
 
 ### HDMI
 
-Not all HDMI cables work: it has to be find out what is the reason.
+Not all HDMI cables work: it has to be found out what is the reason.
 
 ### Type-C
 

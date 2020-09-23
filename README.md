@@ -13,6 +13,10 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 * [EM78F611](http://www.emc.com.tw/emc/en/Product/Product/detail/216) - USB HID microcontroller (keyboard)
 * [MIX3015A](http://www.mixinno.com/?topclassid=11&classid=15) - Class D audio amplifier.
 
+It has plenty of space inside, but the battery is only 4800mAh/48W (7.6V).
+
+It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
+
 ## Firmware basics
 
 * Linux kernel 3.10.24 built from Android 4.4 sources.

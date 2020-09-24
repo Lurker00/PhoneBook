@@ -39,6 +39,8 @@ Firmware forwards keyboard events not transparent way:
 * some key combinations may produce macro sequences (gaming mode)
 * some keys are not handled (?) and, as such, are not passed to BT. For instance, <kbd>Windows</kbd> key produces no effect.
 
+With Type-C connection, touchscreen is exported as Android Open Accessory (AOA) gadget.
+
 ### Windows
 
 * HDMI: video and sound.
@@ -48,13 +50,17 @@ Firmware forwards keyboard events not transparent way:
 
 **Note**: I have no Samsung or Huawei devices for which support for "desktop mode" mode is claimed. So, I can neither check nor comment this mode.
 
-Video is streamed to a Miracast device. There is a mention of Android Open Accessory (AOA) mode, but, currently, I have no idea how it is used and whether does it work. Android device can be charged from PhoneBook at the same time. I didn't hear that sound worked in Android.
+Video is streamed to a Miracast device. Android device can be charged from PhoneBook at the same time. I didn't hear that sound worked in Android.
 
 If ADB is enabled on the device, the firmware establish connection and pushes jar-file and shell script to start a background process which should accept touch screen events from PhoneBook and simulate touches on Android devices. Check `/data/local/tmp/.sagevt/` for `sagevt.jar` and `script.sh`.
 
 The firmware has a code to accept video stream via ADB connection, but I don't know whether it is actually used.
 
 There is [Android application](https://play.google.com/store/apps/details?id=com.anyware.appctrl), which is, actually, only provides UI to PhoneBook firmware settings and updates. It has a "gamer" mode, which, in fact, only a launcher which turns PhoneBook into a mode which supports macros for keys.
+
+### Linux
+
+Tried Ubuntu 18.04 LTS via Type-C: video, sound and **touchscreen** work flawlessly! See common Type-C problem below.
 
 ## Problems found
 
@@ -77,7 +83,9 @@ The problem with PD looks like hardware design problem. Though LDR6282 supports 
 
 ### Touchscreen
 
-I failed to see it working neither with Windows, nor with Android. The touchscreen by itself is good: touching the left bottom corner with any device connected, shows on-screen controls for display brightness/contrast and sound volume. It looks like touches are not forwarded to the connected devices at all.
+I failed to see it working neither with Windows, nor with Android. The touchscreen by itself is good: touching the left bottom corner with any device connected, shows on-screen controls for display brightness/contrast and sound volume.
+
+It works under Linux, which means, there should be a way to make it working under Windows as well. Android is a different case...
 
 ### Android application
 

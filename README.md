@@ -79,9 +79,9 @@ Not all HDMI cables work. The reason is that some cables have not all ground pin
 * find a cable with all the required wires, or
 * get a HDMIm-HDMIf adapter and solder pin 2 to the shield at the male side, or
 * open PhoneBook and solder HDMI pin 2 to the ground, or
-* send your PhoneBook to the factory for repair. :D
+* send your PhoneBook to the factory for repair :D
 
-Seriously, I've made the adapter, and it works!
+Seriously, I've made the adapter, and it works with the problematic cable and micro-HDMI pigtail that I have!
 
 ### Type-C
 

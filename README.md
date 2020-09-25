@@ -75,7 +75,13 @@ Tried Ubuntu 18.04 LTS via Type-C: video, sound and **touchscreen** work flawles
 
 ### HDMI
 
-Not all HDMI cables work: it has to be found out what is the reason. I suspect that PhoneBook requires CEC signal (pin 13), but it is yet to be checked.
+Not all HDMI cables work. The reason is that some cables have not all ground pins wires, and PhoneBook has Pin 2 (DATA2 GND) left floating in the HDMI input socket. **The solutions are**:
+* find a cable with all the required wires, or
+* get a HDMIm-HDMIf adapter and solder pin 2 to the shield at the male side, or
+* open PhoneBook and solder HDMI pin 2 to the ground, or
+* send your PhoneBook to the factory for repair. :D
+
+Seriously, I've made the adapter, and it works!
 
 ### Type-C
 

@@ -8,12 +8,12 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 
 ## Hardware
 * [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195) - SoC.
+* Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
+* Nanya NT5CB64M16FP-DH - 128MB RAM (DRAM DDR3 64М*16).
 * [LDR6282](http://www.legendary.net.cn/html/en/product/USB-C_PD/202005/1166.html) - USB Type-C controller with Display Port Alternate mode and PD support.
 * [HD3SS460](https://www.ti.com/product/HD3SS460) - USB Type-C 4x6 Channels Alternate Mode MUX.
 * TSUM052GDG-1 - FullHD HDMI+Type-C controller.
 * [EM78F611](http://www.emc.com.tw/emc/en/Product/Product/detail/216) - USB HID microcontroller (keyboard, touchpad).
-* Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
-* Nanya NT5CB64M16FP-DH - 128MB RAM (DRAM DDR3 64М*16).
 * [FE1.1S](http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20(Rev.%201.0).pdf) - USB 2.0 4-port hub.
 * [MP26123](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP26123/) - 2/3-Cell Switching Li-ion Battery Charger.
 * [ES7144S](http://www.everest-semi.com/pdf/ES7144S%20DS.pdf) - 24-Bit Stereo D/A Converter for PCM Audio.

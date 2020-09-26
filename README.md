@@ -15,7 +15,7 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 * [FE1.1S](http://www.jfd-ic.com/Documents/FE1.1s%20Data%20Sheet%20(Rev.%201.0).pdf) - USB 2.0 4-port hub.
 * [MIX3015A](http://www.mixinno.com/?topclassid=11&classid=15) - Class D audio amplifier.
 
-It has plenty of space inside, but the battery is only 4800mAh/48W (7.6V).
+It has plenty of space inside, but the battery is only 4800mAh/48Wh (7.6V).
 
 It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
 

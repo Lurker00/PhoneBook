@@ -10,6 +10,7 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 * [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195) - SoC.
 * Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
 * Nanya NT5CB64M16FP-DH - 128MB RAM (DRAM DDR3 64М*16).
+* [ZB25VQ32](http://en.zbitsemi.com/intro/25.html) - 32Mbit SPI NOR flash.
 * [LDR6282](http://www.legendary.net.cn/html/en/product/USB-C_PD/202005/1166.html) - USB Type-C controller with Display Port Alternate mode and PD support.
 * [HD3SS460](https://www.ti.com/product/HD3SS460) - USB Type-C 4x6 Channels Alternate Mode MUX.
 * TSUM052GDG-1 - FullHD HDMI+Type-C controller.

@@ -7,6 +7,8 @@ It is advertised to work with Windows and Mac computers, Android and iOS smartph
 I don't care about Apple devices, so don't expect here anything related to iOS or Mac.
 
 ## Hardware
+
+Main board scans: [front](https://github.com/Lurker00/PhoneBook/raw/master/pictures/mainboard-front.jpg) and [back](https://github.com/Lurker00/PhoneBook/raw/master/pictures/mainboard-back.jpg).
 * [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195) - SoC.
 * Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
 * Nanya NT5CB64M16FP-DH - 128MB RAM (DRAM DDR3 64М*16).

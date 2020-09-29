@@ -110,7 +110,7 @@ Under Android, for me, it does not work via AOA gadget. With software simulation
 
 ### Android application
 
-* Some texts are in Chinese only, i.e. the 3rd item in Advanced Settings.
+* Some texts are in Chinese only, e.g. the 3rd item in Advanced Settings.
 * The option to force landscape mode produces a message in Chinese and does not work, though it could be easily implemented on any device.
 * The option to change display modes does not work on my devices, though I see no a reason why.
 * On PhoneBook connection, it starts in "gamer" mode, and this behavior can't be disabled.

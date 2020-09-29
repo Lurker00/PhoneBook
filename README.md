@@ -37,8 +37,6 @@ Most of the software looks like developed by [Sage Electronics Technology Co.](h
 
 ## How does it work
 
-The following information is based on quick (a few hours) reverse engineering of the firmware.
-
 ### Common
 
 Keyboard, touchpad and mouse (which can be connected to one of the USB ports) are "exported" via Bluetooth: any device shall be paired via Bluetooth with PhoneBook before use. From the firmware code, a game controller can be connected and used as well.

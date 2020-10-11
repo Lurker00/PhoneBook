@@ -9,7 +9,8 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 ## Hardware
 
 Main board scans: [front](https://github.com/Lurker00/PhoneBook/blob/master/pictures/mainboard-front.jpg) and [back](https://github.com/Lurker00/PhoneBook/blob/master/pictures/mainboard-back.jpg).
-* [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195) - SoC.
+* Anyware AW1 - looks like the main SoC. The firmware is built for [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195), but RTD1195 [looks very different](https://www.cnx-software.com/wp-content/uploads/2014/11/902_board_Large.jpg).
+* Anyware AWB1 - Bluetooth controller.
 * Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
 * Nanya NT5CB64M16FP-DH - 128MB RAM (DRAM DDR3 64М*16).
 * [ZB25VQ32](http://en.zbitsemi.com/intro/25.html) - 32Mbit SPI NOR flash.

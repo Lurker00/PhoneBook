@@ -21,10 +21,13 @@ Main board scans: [front](https://github.com/Lurker00/PhoneBook/blob/master/pict
 * [MP26123](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP26123/) - 2/3-Cell Switching Li-ion Battery Charger.
 * [ES7144S](http://www.everest-semi.com/pdf/ES7144S%20DS.pdf) - 24-Bit Stereo D/A Converter for PCM Audio.
 * [MIX3015A](http://www.mixinno.com/?topclassid=11&classid=15) - Class D audio amplifier.
+* [AON7401](http://www.aosmd.com/res/data_sheets/aon7401.pdf) - MOSFET for Type-C VDC (5V only).
 
 It has plenty of space inside, but the battery is only 4800mAh/48Wh (7.6V). It can work from the power supply without a battery.
 
 It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
+
+The power adapter is 12V/2A, 3.5*1.35mm connector. I've soldered a cable from [12V PD decoy](https://aliexpress.com/item/4000456824088.html), to charge from PD charger or power bank.
 
 ## Firmware basics
 

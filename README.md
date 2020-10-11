@@ -25,7 +25,7 @@ Main board scans: [front](https://github.com/Lurker00/PhoneBook/blob/master/pict
 
 It has plenty of space inside, but the battery is only 4800mAh/48Wh (7.6V). It can work from the power supply without a battery.
 
-The power adapter is 12V/2A, 3.5*1.35mm connector. I've soldered a cable from [12V PD decoy](https://aliexpress.com/item/4000456824088.html), to charge from PD charger or power bank.
+The power adapter is 12V/2A, 3.5x1.35mm connector. I've soldered a cable from [12V PD decoy](https://aliexpress.com/item/4000456824088.html), to charge from PD charger or power bank.
 
 It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
 

@@ -8,7 +8,7 @@ I don't care about Apple devices, so don't expect here anything related to iOS o
 
 ## Hardware
 
-Main board scans: [front](https://github.com/Lurker00/PhoneBook/blob/master/pictures/mainboard-front.jpg) and [back](https://github.com/Lurker00/PhoneBook/blob/master/pictures/mainboard-back.jpg).
+Main board scans: [front](pictures/mainboard-front.jpg) and [back](pictures/mainboard-back.jpg).
 * Anyware AW1 - looks like the main SoC. The firmware is built for [Realtek RTD1195](https://www.realtek.com/en/products/communications-network-ics/item/rtd1195), but RTD1195 [looks very different](https://www.cnx-software.com/wp-content/uploads/2014/11/902_board_Large.jpg).
 * Anyware AWB1 - Bluetooth controller.
 * Toshiba TC58BVG0S3HTA00 - 128MB NAND flash.
@@ -23,6 +23,8 @@ Main board scans: [front](https://github.com/Lurker00/PhoneBook/blob/master/pict
 * [ES7144S](http://www.everest-semi.com/pdf/ES7144S%20DS.pdf) - 24-Bit Stereo D/A Converter for PCM Audio.
 * [MIX3015A](http://www.mixinno.com/?topclassid=11&classid=15) - Class D audio amplifier.
 * [AON7401](http://www.aosmd.com/res/data_sheets/aon7401.pdf) - MOSFET for Type-C VDC (5V only).
+
+See also [description of some useful points](pictures/README.md).
 
 It has plenty of space inside, but the battery is only 4800mAh/48Wh (7.6V). It can work from the power supply without a battery.
 

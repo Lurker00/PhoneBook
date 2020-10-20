@@ -7,6 +7,8 @@
 * J17 - looks like UART of TSUM052GDG-1, but I've seen no output.
 * J18 - UART of the AWB1: TX/GND/RX, 115200 bps.
 
+UARTs require 3.3V levels. I've used [this CP2102 board with microUSB connector](https://aliexpress.com/item/32716109900.html): it works great and easily can be installed inside the PhoneBook.
+
 # Test points
 
 * TX5/RX5 - UART I/O between AW1 and AWB1.

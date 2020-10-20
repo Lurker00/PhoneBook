@@ -69,7 +69,7 @@ Tried Ubuntu 18.04 LTS via Type-C: video, sound and **touchscreen** work flawles
 Not all HDMI cables work. The reason is that some cables have not all ground pin wires. It is not a problem with most of devices, because they have shorted all ground lines together at their end. But PhoneBook has Pin 2 (DATA2 GND) left floating in the HDMI input socket, by the motherboard design! **The solutions are**:
 * find a cable with all the required wires, or
 * get a HDMIm-HDMIf adapter and solder pin 2 to the shield at the male side, or
-* open PhoneBook and solder HDMI pin 2 (marked red in the [picture](https://github.com/Lurker00/PhoneBook/blob/master/pictures/HDMI-Pin2.jpg)) to the ground, or
+* open PhoneBook and solder HDMI pin 2 (marked red in the [picture](pictures/HDMI-Pin2.jpg)) to the ground, or
 * send your PhoneBook to the factory for repair :D
 
 Seriously, I've made the adapter, and it works with the problematic cable and micro-HDMI pigtail that I have!

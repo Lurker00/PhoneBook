@@ -4,7 +4,7 @@ Main board scans: [front](mainboard-front.jpg) and [back](mainboard-back.jpg).
 
 PhoneBook has plenty of space inside, but the battery is only 4800mAh/48Wh (7.6V). It can work from the power supply without a battery.
 
-The power adapter is 12V/2A, 3.5x1.35mm connector. I've soldered a cable from [12V PD decoy](https://aliexpress.com/item/4000456824088.html), to charge from PD charger or power bank.
+The power adapter is 12V/2A, 3.5x1.35mm connector. I've soldered a cable from [12V PD decoy](https://www.aliexpress.com/item/4000456824088.html), to charge from PD charger or power bank.
 
 It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
 
@@ -33,7 +33,7 @@ It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
 * J17 - looks like UART of TSUM052GDG-1 (5V), but I've seen no output.
 * J18 - UART of the AWB1: TX/GND/RX, 115200 bps, 3.3V.
 
-I've used [this CP2102 board with microUSB connector](https://aliexpress.com/item/32716109900.html): it works great and easily can be installed inside the PhoneBook.
+I've used [this CP2102 board with microUSB connector](https://www.aliexpress.com/item/32716109900.html): it works great and easily can be installed inside the PhoneBook.
 
 ## Test points
 

@@ -27,13 +27,13 @@ It looks like it might have Wi-Fi and Ethernet for cheap, but it does not.
 ## Connectors
 
 * J2 - UART of LDR6282 for its firmware update.
-* J11 - UART interface of the SoC (AW1): TX/GND/RX, 115200 bps.
+* J11 - UART interface of the SoC (AW1): TX/GND/RX, 115200 bps, 3.3V.
 * J14 - JTAG of AWB1.
 * J16 - USB hub (FE1.1S) port in parallel with EM78F611.
-* J17 - looks like UART of TSUM052GDG-1, but I've seen no output.
-* J18 - UART of the AWB1: TX/GND/RX, 115200 bps.
+* J17 - looks like UART of TSUM052GDG-1 (5V), but I've seen no output.
+* J18 - UART of the AWB1: TX/GND/RX, 115200 bps, 3.3V.
 
-UARTs require 3.3V levels. I've used [this CP2102 board with microUSB connector](https://aliexpress.com/item/32716109900.html): it works great and easily can be installed inside the PhoneBook.
+I've used [this CP2102 board with microUSB connector](https://aliexpress.com/item/32716109900.html): it works great and easily can be installed inside the PhoneBook.
 
 ## Test points
 

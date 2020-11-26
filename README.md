@@ -51,11 +51,11 @@ The firmware has a code to accept video stream via ADB connection, but I don't k
 
 There is [Android application](https://play.google.com/store/apps/details?id=com.anyware.appctrl), which is, actually, only provides UI to PhoneBook firmware settings and updates. It has a "gamer" mode, which, in fact, only a launcher which turns PhoneBook into a mode which supports macros for keys.
 
-For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), touchscreen does not work with the default settings. It works if I disable the 3rd item in Advanced Settings (shown in Chinese). With this option disabled, it simulate mouse events, so no multitouch.
+For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), multitouch works perfectly starting from firmware 3.5271.530.17.8. All 3 items in Advanced Settings should be enabled.
 
 ### Linux
 
-Tried Ubuntu 18.04 LTS via Type-C: video, sound and **touchscreen** work flawlessly! See common Type-C problem below.
+Tried Ubuntu 18.04 and 20.04 LTS via Type-C: video, sound and **touchscreen** work flawlessly! See common Type-C problem below.
 
 ## Problems found
 
@@ -65,6 +65,8 @@ Tried Ubuntu 18.04 LTS via Type-C: video, sound and **touchscreen** work flawles
 * Some keys are available only in <kbd>Num Lock</kbd> off mode, but there is no way to make it the default state, nor even <kbd>Num Lock</kbd> state indicator.
 
 ### HDMI
+
+**Update:** Firmware 3.5271.530.17.8 has implemented manual video source switch via OSD (touch left bottom corner of the screen). With manual switch, any HDMI cable works!
 
 Not all HDMI cables work. The reason is that some cables have not all ground pin wires. It is not a problem with most of devices, because they have shorted all ground lines together at their end. But PhoneBook has Pin 2 (DATA2 GND) left floating in the HDMI input socket, by the motherboard design! **The solutions are**:
 * find a cable with all the required wires, or
@@ -84,11 +86,9 @@ The problem with PD looks like hardware design problem. Though LDR6282 supports 
 
 ### Touchscreen
 
-I failed to see it working with Windows. The touchscreen by itself is good: touching the left bottom corner with any device connected, shows on-screen controls for display brightness/contrast and sound volume.
+I failed to see it working with Windows. The touchscreen by itself is good: touching the left bottom corner shows on-screen controls for display brightness/contrast and sound volume.
 
 It works under Linux, which means, there should be a way to make it working under Windows as well.
-
-Under Android, for me, it does not work via AOA gadget. With software simulation, it works as mouse simulation, i.e. no multitouch. In landscape, the software does not swap coordinates, which makes it useless, but this can be fixed in future software updates.
 
 ### Android application
 
@@ -97,7 +97,6 @@ Under Android, for me, it does not work via AOA gadget. With software simulation
 * The option to change display modes does not work on my devices, though I see no a reason why.
 * On PhoneBook connection, it starts in "gamer" mode, and this behavior can't be disabled.
 * It would be very useful if it initiated BT connection on USB connect, and BT disconnect on USB disconnect, but it does not.
-* Software touch simulation should be fixed for landscape orientation, and should be improved for actual multitouch.
 
 ## Current conclusion
 

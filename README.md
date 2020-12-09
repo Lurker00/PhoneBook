@@ -45,7 +45,7 @@ I tried only notebooks with touch screens. I've tried Control Panel settings to 
 
 Video is streamed to a Miracast device. Android device can be charged from PhoneBook at the same time. I didn't hear that sound worked in Android.
 
-If ADB is enabled on the device, the firmware establish connection and pushes jar-file and shell script to start a background process which should accept touch screen events from PhoneBook and simulate touches on Android devices. Check `/data/local/tmp/.sagevt/` for `sagevt.jar` and `script.sh`.
+If ADB is enabled on the device, the firmware establish connection and pushes jar-file and shell script to start a background process which should accept touch screen events from PhoneBook and simulate touches on Android devices. Check `/data/local/tmp/.sagevt/` for `sagevt.jar` and `script.sh`. [Follow this link](https://github.com/Lurker00/PhoneBook-sagevt) for a custom build and more details.
 
 The firmware has a code to accept video stream via ADB connection, but I don't know whether it is actually used.
 

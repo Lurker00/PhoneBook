@@ -51,7 +51,7 @@ The firmware has a code to accept video stream via ADB connection, but I don't k
 
 There is [Android application](https://play.google.com/store/apps/details?id=com.anyware.appctrl), which is, actually, only provides UI to PhoneBook firmware settings and updates. It has a "gamer" mode, which, in fact, only a launcher which turns PhoneBook into a mode which supports macros for keys.
 
-For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), multitouch works perfectly starting from firmware 3.5273.562.26.33.2.516. All 3 items in Advanced Settings should be enabled.
+For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), multitouch works perfectly starting from firmware 3.5273.562.26.33. All 3 items in Advanced Settings should be enabled.
 
 ### Linux
 
@@ -66,7 +66,7 @@ Tried Ubuntu 18.04 and 20.04 LTS via Type-C: video, sound and **touchscreen** wo
 
 ### HDMI
 
-**Update:** Firmware 3.5271.530.17.8 has implemented manual video source switch via OSD (touch left bottom corner of the screen). With manual switch, any HDMI cable works!
+**Update:** Firmware 3.5273.562.26.33 has implemented manual video source switch via OSD (touch left bottom corner of the screen). With manual switch, any HDMI cable works!
 
 Not all HDMI cables work. The reason is that some cables have not all ground pin wires. It is not a problem with most of devices, because they have shorted all ground lines together at their end. But PhoneBook has Pin 2 (DATA2 GND) left floating in the HDMI input socket, by the motherboard design! **The solutions are**:
 * find a cable with all the required wires, or

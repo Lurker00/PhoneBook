@@ -51,7 +51,7 @@ The firmware has a code to accept video stream via ADB connection, but I don't k
 
 There is [Android application](https://play.google.com/store/apps/details?id=com.anyware.appctrl), which is, actually, only provides UI to PhoneBook firmware settings and updates. It has a "gamer" mode, which, in fact, only a launcher which turns PhoneBook into a mode which supports macros for keys.
 
-For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), multitouch works perfectly starting from firmware 3.5271.530.17.8. All 3 items in Advanced Settings should be enabled.
+For my smartphone ([Unihertz Atom](https://www.unihertz.com/atom.html), MTK), multitouch works perfectly starting from firmware 3.5273.562.26.33.2.516. All 3 items in Advanced Settings should be enabled.
 
 ### Linux
 
